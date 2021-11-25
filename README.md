@@ -11,4 +11,4 @@ Run the command prompt and change the directory to the project folder
 Run  npm install to install required packages using the command prompt 
 Enter the command npm run dev to run the project. 
 
-[Portfolio Website](my-portfolio-lppxytezv-lincolnruwambara.vercel.app) 
+[Portfolio Website](https://my-portfolio-lppxytezv-lincolnruwambara.vercel.app/) 
