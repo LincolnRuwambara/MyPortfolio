@@ -1,6 +1,12 @@
- import React from 'react';
+import React from 'react';
+import { GridContainer } from "../../components/Experience/ExperienceStyles";
 
-import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
+import {
+  Section,
+  SectionDivider,
+  SectionTitle,
+  SectionText,
+} from "../../styles/GlobalComponents";
 import { Box, Boxes, BoxNum, BoxText } from './SovTechStyles';
 import { FiActivity } from "react-icons/fi";
 import { FaSnowman } from "react-icons/fa";
@@ -31,14 +37,14 @@ const SovTech = () => (
     <br />
     <FaSnowman size="7rem" />
     <SectionTitle> Why I want to be a developer at SovTech</SectionTitle>
-    <Boxes>
+    <GridContainer>
       {data.map((card, index) => (
         <Box key="index">
           <BoxNum>{card.number}</BoxNum>
           <BoxText>{card.text}</BoxText>
         </Box>
       ))}
-    </Boxes>
+     </GridContainer>
   </Section>
 );
 
